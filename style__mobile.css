@@ -1,0 +1,122 @@
+/* phones, 600px ou menores */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(156, 7, 89);
+    }
+    .box__interno {
+        display: block;
+    }
+    .box__externo__conteudo__header {
+        justify-content: center;
+    }
+    .img__logo {
+        width: 160px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .img__logo__footer {
+        width: 80px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    /*Formulario*/
+    .box__externo {
+        display: block;
+    }
+    .box__container {
+        display: block;
+        justify-content: center;
+    }
+    /*Titulos das categorias do formulario*/
+    legend {
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        color: #041b91;
+        font-weight: bold;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .p__footer {
+        color: #fff;
+        margin: 10px;
+        font-family: 'Questrial';
+        font-size: 11px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* iphone 6, 6s, 7, 8 */
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    body {
+        background-color: rgb(255, 21, 21);
+    }
+    .box__interno {
+        display: block;
+    }
+    .box__externo__conteudo__header {
+        justify-content: center;
+    }
+    .img__logo {
+        width: 180px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .img__logo__footer {
+        width: 90px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .p__titulo__padrao {
+        color: #041b91;
+        margin-bottom: 1px;
+        font-family: 'Questrial';
+        font-size: 21px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: left;
+    }
+}
+
+
+/* iphone XR, 11 */
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+    .box__interno {
+        display: block;
+    }
+    .box__externo__conteudo__header {
+        justify-content: center;
+    }
+    .img__logo {
+        width: 200px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .img__logo__footer {
+        width: 100px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .p__titulo__padrao {
+        color: #041b91;
+        margin-bottom: 1px;
+        font-family: 'Questrial';
+        font-size: 23px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: left;
+    }
+}

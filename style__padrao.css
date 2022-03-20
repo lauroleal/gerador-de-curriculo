@@ -1,0 +1,521 @@
+/* Fonte externa para os textos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* estilizando a barra de rolagem*/
+
+
+/* no Firefox */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #041b91 rgb(255, 255, 255);
+}
+
+
+/* no Chrome, Edge, e Safari */
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #041b91;
+    border-radius: 30px;
+}
+
+
+/* mudando a cor padrão quando um texto e selecionado */
+
+::selection {
+    background: #041b91;
+    color: rgb(255, 255, 255);
+}
+
+
+/*#################################################################*/
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #041b91;
+    width: 100%;
+    height: auto;
+}
+
+
+/*Header*/
+
+.box__interno {
+    display: flex;
+}
+
+.box__externo__conteudo__header {
+    justify-content: left;
+}
+
+.img__logo {
+    width: 200px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.img__logo__footer {
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+/*Corpo*/
+
+.p__titulo__padrao {
+    color: #041b91;
+    margin-bottom: 1px;
+    font-family: 'Questrial';
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+}
+
+
+/*#################################################################*/
+
+
+/*Formulario*/
+
+.box__externo__teste {
+    max-width: 500px;
+}
+
+.teste {
+    max-width: 100%;
+}
+
+.box__externo {
+    display: block;
+}
+
+.box__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid #ccc;
+}
+
+form {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.formulario__texto {
+    margin: 9px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color: #041b91;
+}
+
+.formulario__texto__p {
+    margin: 9px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: #0d228b;
+    font-weight: bold;
+}
+
+
+/*Propriedades do input dos formularios*/
+
+.formulario__campo {
+    border-radius: 5px;
+    border: solid 1px #041b91;
+    width: 300px;
+    height: 35px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color: #041b91;
+    padding: 5px;
+    margin: 9px;
+}
+
+.formulario__campo__menor {
+    border-radius: 5px;
+    border: solid 1px #041b91;
+    width: 120px;
+    height: 35px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color: #041b91;
+    padding: 5px;
+    margin: 9px;
+}
+
+
+/* Para o campo nacionalidade*/
+
+.formulario__campo__menor3 {
+    border-radius: 5px;
+    border: solid 1px #041b91;
+    width: 280px;
+    height: 35px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color: #041b91;
+    padding: 5px;
+    margin: 9px;
+}
+
+.formulario__campo__menor2 {
+    border-radius: 5px;
+    border: solid 1px #041b91;
+    width: 105px;
+    height: 35px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color: #041b91;
+    padding: 5px;
+    margin: 9px;
+}
+
+.formulario__textarea {
+    border-radius: 5px;
+    border: solid 1px #041b91;
+    width: 400px;
+    max-height: 120px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color: #041b91;
+    margin-left: 10px;
+}
+
+.formulario__textarea::placeholder {
+    color: #041c91af;
+    font-size: 19px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 5px;
+}
+
+.formulario__campo__option {
+    border-radius: 5px;
+    border: solid 1px #041b91;
+    width: 300px;
+    height: 35px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color: #041b91;
+    padding: 5px;
+}
+
+.formulario__campo__option__disabled {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color: #041c91b6;
+}
+
+
+/*Cor da legenda do placeholder / caixa de texto*/
+
+input::placeholder {
+    color: #041c91af;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+/*Cor das bordas dos campos dos formularios quando selecionado*/
+
+.formulario__campo:focus,
+input:focus,
+select:focus,
+.formulario__textarea:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.formulario__tel {
+    margin: 9px;
+}
+
+.formulario__data {
+    max-width: 180px;
+    max-height: 35px;
+}
+
+.formulario__checkbox,
+.formulario__radio {
+    margin: 0 0 0 10px;
+}
+
+
+/*estrutura das categorias do formulario*/
+
+fieldset {
+    border-radius: 10px;
+    width: 480px;
+    height: auto;
+    border: solid 1px #041b91;
+    padding: 10px;
+    margin: 20px 0px 10px 25px;
+}
+
+
+/*Titulos das categorias do formulario*/
+
+legend {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: #041b91;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+/* manipulando as propriedades do input radio  / Funciona no Google */
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #041b91;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: #041b91;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
+
+
+/* manipulando as propriedades do input checkbox'  / Funciona no Google */
+
+input[type='checkbox']:after {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 5px 5px;
+    top: -1px;
+    left: -5px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #041b91;
+}
+
+input[type='checkbox']:checked:after {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 5px 5px;
+    top: -1px;
+    left: -5px;
+    position: relative;
+    background-color: #041b91;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
+
+
+/* colocando um icone no campo do formulario do text/nome como background */
+
+input[type='text'] {
+    /* background-image: url("../img/perfil.svg");*/
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+
+/* colocando um icone no campo do formulario do email como background */
+
+input[type='email'] {
+    /* background-image: url("../img/email.svg");*/
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+
+/* colocando um icone no campo do formulario do telefone como background */
+
+input[type='tel'] {
+    /* background-image: url("../img/telefone.svg");*/
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+
+/* colocando um icone no campo do formulario do date como background */
+
+input[type='date'] {
+    /* background-image: url("../img/data.svg");*/
+    background-position-y: 5.7px;
+    background-position-x: 123px;
+    background-repeat: no-repeat;
+}
+
+
+/* webkit para manipular as cores / comportamento do input data / Funciona no Google*/
+
+ ::-webkit-datetime-edit-month-field:hover,
+ ::-webkit-datetime-edit-day-field:hover,
+ ::-webkit-datetime-edit-year-field:hover {
+    background-color: #041b91;
+    color: #fff
+}
+
+ ::-webkit-datetime-edit-year-field:focus,
+ ::-webkit-datetime-edit-month-field:focus,
+ ::-webkit-datetime-edit-day-field:focus {
+    background-color: #041b91;
+    color: #fff;
+}
+
+
+/* webkit para trocar o incone padão do input data / Funciona no Google
+
+ ::-webkit-calendar-picker-indicator {
+    background-image: url("../img/data.svg");
+} */
+
+
+/*tipo resetando os atributos padroes da tag button*/
+
+button {
+    background-color: #041b91;
+    color: #fff;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #041c91b6;
+}
+
+.centralizar__button {
+    text-align: center;
+    align-items: center;
+}
+
+
+/*#################################################################*/
+
+
+/*Footer*/
+
+footer {
+    background-color: #041b91;
+    padding: 15px 0 15px 0;
+    border-top-left-radius: 25%;
+}
+
+.box__externo__conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.icones__sociais {
+    width: 33px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+}
+
+.p__footer {
+    color: #fff;
+    margin: 10px;
+    font-family: 'Questrial';
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+/*Hover icones sociais*/
+
+a.facebook:hover {
+    content: url(facebook_logo.png);
+    width: 33px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+}
+
+a.instagram:hover {
+    content: url(instagram_logo.png);
+    width: 33px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+}
+
+a.twitter:hover {
+    content: url(twitter_logo.png);
+    width: 33px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+}
+
+a.linkedin:hover {
+    content: url(linkedin_logo.png);
+    width: 33px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+}
+
+a.github:hover {
+    content: url(GitHub_logo_dark.png);
+    width: 33px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+}
+
+a.whatsapp:hover {
+    content: url(Whatsapp_logo.png);
+    width: 33px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+}
