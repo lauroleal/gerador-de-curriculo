@@ -60,11 +60,7 @@ header {
 /*Header*/
 
 .box__interno {
-    display: flex;
-}
-
-.box__externo__conteudo__header {
-    justify-content: left;
+    display: block;
 }
 
 .img__logo {
@@ -86,11 +82,10 @@ header {
 
 .p__titulo__padrao {
     color: #041b91;
-    margin-bottom: 1px;
     font-family: 'Questrial';
     font-size: 25px;
     font-weight: bold;
-    padding: 5px;
+    padding: 5px 0px 5px 0px;
     text-align: left;
 }
 
@@ -100,31 +95,18 @@ header {
 
 /*Formulario*/
 
-.box__externo__teste {
-    max-width: 500px;
+#formulario {
+    display: flex;
+    justify-content: center;
 }
 
 .teste {
-    max-width: 100%;
+    width: 477px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .box__externo {
     display: block;
-}
-
-.box__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    border: 1px solid #ccc;
-}
-
-form {
-    width: auto;
-    height: auto;
-    border-radius: 5px;
-    background-color: #ffffff;
 }
 
 .formulario__texto {
@@ -205,6 +187,7 @@ form {
     font-size: 19px;
     color: #041b91;
     margin-left: 10px;
+    padding: 2px;
 }
 
 .formulario__textarea::placeholder {
@@ -274,7 +257,8 @@ fieldset {
     height: auto;
     border: solid 1px #041b91;
     padding: 10px;
-    margin: 20px 0px 10px 25px;
+    margin-left: 8px;
+    margin-bottom: 5px;
 }
 
 
