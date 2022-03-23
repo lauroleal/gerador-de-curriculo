@@ -86,7 +86,7 @@ header {
     font-size: 25px;
     font-weight: bold;
     padding: 5px 0px 5px 0px;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -98,15 +98,12 @@ header {
 #formulario {
     display: flex;
     justify-content: center;
-}
-
-.teste {
-    width: 477px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 .box__externo {
     display: block;
+    justify-content: center;
 }
 
 .formulario__texto {
@@ -166,7 +163,8 @@ header {
     margin: 9px;
 }
 
-.formulario__campo__menor2 {
+.formulario__campo__menor2,
+.formulario__campo__forma {
     border-radius: 5px;
     border: solid 1px #041b91;
     width: 105px;
@@ -206,6 +204,7 @@ header {
     font-size: 19px;
     color: #041b91;
     padding: 5px;
+    margin: 9px;
 }
 
 .formulario__campo__option__disabled {
@@ -253,6 +252,7 @@ select:focus,
 
 fieldset {
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 480px;
     height: auto;
     border: solid 1px #041b91;

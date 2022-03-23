@@ -1,86 +1,346 @@
-/* phones, 600px ou menores */
+/*
+Nest hub 1024 ok
+Nest hub Max 1280 ok 
+*/
 
-@media only screen and (max-width: 600px) {
-    .box__interno {
-        display: block;
-    }
-    .box__externo__conteudo__header {
-        justify-content: center;
-    }
+@media only screen and (max-width: 1280px) {
     .img__logo {
-        width: 160px;
-        height: auto;
-        margin-top: 5px;
-        margin-left: 5px;
+        width: 260px;
     }
     .img__logo__footer {
         width: 80px;
-        height: auto;
-        margin-top: 5px;
-        margin-left: 5px;
+    }
+    /*Formulario*/
+    #formulario {
+        display: flex;
+    }
+    .box__externo {
+        display: block;
+    }
+    fieldset {
+        width: 330px;
+        margin: 0 auto;
+    }
+    .formulario__textarea {
+        width: 300px;
+    }
+    .formulario__campo {
+        width: 250px;
+    }
+    /*historico profissional data*/
+    .formulario__campo__menor {
+        width: 77px;
+        font-size: 14px;
+    }
+    .formulario__data {
+        width: 300px;
+        font-size: 14px;
+        background-color: #ffffff;
+    }
+    .formulario__campo__option {
+        width: 250px;
+        font-size: 14px;
+        background-color: #ffffff;
+    }
+    /* Para o campo nacionalidade*/
+    .formulario__campo__menor3 {
+        width: 250px;
+        font-size: 12px;
+    }
+    /*formação data*/
+    .formulario__campo__menor2 {
+        width: 70px;
+        font-size: 14px;
+    }
+    .formulario__campo__forma {
+        width: 52px;
+    }
+    .formulario__texto {
+        font-size: 14px;
+    }
+    .formulario__texto__p {
+        font-size: 14px;
+    }
+    input::placeholder {
+        font-size: 14px;
+    }
+    .formulario__textarea::placeholder {
+        font-size: 14px;
+    }
+    option::placeholder {
+        font-size: 14px;
+    }
+    legend {
+        font-size: 16px;
+    }
+    /*Titulos das categorias do formulario*/
+    .p__footer {
+        font-size: 11px;
+    }
+}
+
+
+/*
+Ipad Air 820 ok
+Ipad Mini 768 ok
+Surface pro 7 912 ok 
+*/
+
+@media only screen and (max-width: 912px) {
+    .img__logo {
+        width: 260px;
+    }
+    .img__logo__footer {
+        width: 80px;
+    }
+    /*Formulario*/
+    #formulario {
+        display: flex;
+    }
+    .box__externo {
+        display: block;
+        justify-content: center;
+    }
+    fieldset {
+        width: 330px;
+    }
+    .formulario__textarea {
+        width: 300px;
+    }
+    .formulario__campo {
+        width: 250px;
+    }
+    /*historico profissional data*/
+    .formulario__campo__menor {
+        width: 77px;
+        font-size: 12px;
+    }
+    .formulario__data {
+        width: 300px;
+        font-size: 12px;
+    }
+    .formulario__campo__option {
+        width: 250px;
+        font-size: 12px;
+    }
+    /* Para o campo nacionalidade*/
+    .formulario__campo__menor3 {
+        width: 250px;
+        font-size: 12px;
+    }
+    /*formação data*/
+    .formulario__campo__menor2 {
+        width: 65px;
+        font-size: 12px;
+    }
+    .formulario__texto {
+        font-size: 10px;
+    }
+    .formulario__texto__p {
+        font-size: 12px;
+    }
+    input::placeholder {
+        font-size: 12px;
+    }
+    .formulario__textarea::placeholder {
+        font-size: 12px;
+    }
+    option::placeholder {
+        font-size: 12px;
+    }
+    legend {
+        font-size: 16px;
+    }
+    /*Titulos das categorias do formulario*/
+    .p__footer {
+        font-size: 11px;
+    }
+}
+
+
+/*Formulario*/
+
+@media only screen and (max-width: 540px) {
+    /*Formulario*/
+    #formulario {
+        display: block;
+    }
+    .box__externo {
+        display: block;
+        justify-content: center;
+    }
+    fieldset {
+        width: 330px;
+        margin: 0 auto;
+    }
+}
+
+
+/*
+Iphone xr 414
+Samsung galaxy s20 
+Samsung galaxy a51 
+Pixel 5
+Iphone 12 Pro
+Samsung galaxy s8
+Iphone SE 
+*/
+
+@media only screen and (max-width: 414px) {
+    .img__logo {
+        width: 260px;
+    }
+    .img__logo__footer {
+        width: 80px;
     }
     /*Formulario*/
     #formulario {
         display: block;
-        height: auto;
-        flex-wrap: wrap;
-        width: 80%;
-        max-width: 1200px;
+    }
+    .box__externo {
+        display: block;
+        justify-content: center;
+    }
+    fieldset {
+        width: 300px;
         margin: 0 auto;
     }
     .formulario__textarea {
-        max-width: 280px;
+        width: 260px;
     }
     .formulario__campo {
-        min-width: 100px;
-        max-width: 280px;
-        height: 35px;
+        width: 230px;
     }
     /*historico profissional data*/
     .formulario__campo__menor {
-        width: 72px;
-        height: 35px;
+        width: 170px;
+        font-size: 13px;
     }
     .formulario__data {
-        max-width: 165px;
-        max-height: 35px;
+        width: 150px;
+        font-size: 13px;
     }
     .formulario__campo__option {
-        width: 280px;
-        font-size: 15px;
+        width: 230px;
     }
     /* Para o campo nacionalidade*/
     .formulario__campo__menor3 {
-        width: 195px;
-        height: 35px;
+        width: 230px;
+        font-size: 13px;
     }
+    /*formação data*/
     .formulario__campo__menor2 {
-        width: 75px;
-        height: 35px;
+        width: 170px;
+        font-size: 13px;
+    }
+    .formulario__campo__forma {
+        width: 150px;
     }
     .formulario__texto {
-        margin: 9px;
-        font-family: 'PT Sans Narrow', sans-serif;
-        font-size: 14px;
-        color: #041b91;
+        font-size: 13px;
     }
     .formulario__texto__p {
-        margin: 9px;
-        font-family: 'PT Sans Narrow', sans-serif;
-        font-size: 14px;
-        color: #0d228b;
-        font-weight: bold;
+        font-size: 13px;
     }
-    .teste {
-        justify-content: center;
-        width: 97%;
+    input::placeholder {
+        font-size: 13px;
+    }
+    .formulario__textarea::placeholder {
+        font-size: 13px;
+    }
+    option::placeholder {
+        font-size: 13px;
+    }
+    legend {
+        font-size: 16px;
+    }
+    /*Titulos das categorias do formulario*/
+}
+
+@media only screen and (max-width: 280px) {
+    .img__logo {
+        width: 200px;
+    }
+    fieldset {
+        width: 270px;
+        margin: 0 auto;
+    }
+    .formulario__textarea {
+        width: 240px;
+    }
+    .formulario__campo {
+        width: 240px;
+    }
+    /*historico profissional data*/
+    .formulario__campo__menor {
+        width: 150px;
+    }
+    .formulario__data {
+        width: 240px;
+        font-size: 14px;
+    }
+    .formulario__campo__option {
+        width: 240px;
+        font-size: 14px;
+    }
+    /* Para o campo nacionalidade*/
+    .formulario__campo__menor3 {
+        width: 240px;
+    }
+    /*formação data*/
+    .formulario__campo__menor2 {
+        width: 150px;
+    }
+    /*formação data*/
+    .formulario__campo__forma {
+        width: 130px;
+    }
+    .formulario__texto {
+        font-size: 14px;
+    }
+    .formulario__texto__p {
+        font-size: 13px;
+    }
+    input::placeholder {
+        font-size: 14px;
+    }
+    .formulario__textarea::placeholder {
+        font-size: 14px;
+    }
+    option::placeholder {
+        font-size: 14px;
+    }
+    legend {
+        font-size: 15px;
     }
     /*Titulos das categorias do formulario*/
     .p__footer {
-        color: #fff;
-        margin: 10px;
-        font-family: 'Questrial';
         font-size: 11px;
-        padding-bottom: 10px;
+    }
+    /* manipulando as propriedades do input radio  / Funciona no Google */
+    input[type='radio'] {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        margin-left: 30px;
+    }
+    input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+    }
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+    }
+    .radio__flex {
+        display: flex;
+    }
+    .radio__block {
+        display: center;
+    }
+    .p__footer {
+        font-size: 8.4px;
     }
 }

@@ -39,9 +39,8 @@
 
     </header>
     <section>
-
-        <h1 class="p__titulo__padrao">Gerador de Currículo</h1>
-        <form>
+        <form class="box_for">
+            <h1 class="p__titulo__padrao">Gerador de Currículo</h1>
             <section id="formulario">
                 <div class="box__externo">
                     <fieldset class=" teste">
@@ -181,18 +180,26 @@
                            </select>
 
                             <label class="formulario__texto" for="inicio_curso">Início</label>
-                            <input class="formulario__campo__menor2" type="text" name="inicio_curso" placeholder="Jan/2020">
+                            <input class="formulario__campo__forma" type="text" name="inicio_curso" placeholder="Jan/2020">
                             <label class="formulario__texto" for="saida_curso">Previsão / fim</label>
-                            <input class="formulario__campo__menor2" type="text" name="saida_curso" placeholder="Jan/2022">
+                            <input class="formulario__campo__forma" type="text" name="saida_curso" placeholder="Jan/2022">
                             <section>
                                 <!-- Situação academica-->
                                 <p class="formulario__texto__p">Qual sua situação atual em relação a sua formação?</p>
-                                <input class="formulario__radio" type="radio" id="cursando" name="situação__formacao" value="Cursando">
-                                <label class="formulario__texto" for="cursando">Cursando</label>
-                                <input class="formulario__radio" type="radio" id="concluido" name="situação__formacao" value="Concluído">
-                                <label class="formulario__texto" for="concluido">Concluído</label>
-                                <input class="formulario__radio" type="radio" id="interrompido" name="situação__formacao" value="Interrompido">
-                                <label class="formulario__texto" for="interrompido">Interrompido</label>
+                                <div class="radio__flex">
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" id="cursando" name="situação__formacao__2" value="Cursando">
+                                        <label class="formulario__texto" for="cursando">Cursando</label>
+                                    </section>
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" id="concluido" name="situação__formacao__2" value="Concluído">
+                                        <label class="formulario__texto" for="concluido">Concluído</label>
+                                    </section>
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" id="interrompido" name="situação__formacao__2" value="Interrompido">
+                                        <label class="formulario__texto" for="interrompido">Interrompido</label>
+                                    </section>
+                                </div>
                             </section>
                             <section>
                                 <label class="formulario__texto" for="escola__nome">Instituição</label>
@@ -217,18 +224,26 @@
                            </select>
 
                             <label class="formulario__texto" for="inicio_curso">Início</label>
-                            <input class="formulario__campo__menor2" type="text" name="inicio_curso__2" placeholder="Jan/2020">
+                            <input class="formulario__campo__forma" type="text" name="inicio_curso__2" placeholder="Jan/2020">
                             <label class="formulario__texto" for="saida_curso">Previsão / fim</label>
-                            <input class="formulario__campo__menor2" type="text" name="saida_curso__2" placeholder="Jan/2022">
+                            <input class="formulario__campo__forma" type="text" name="saida_curso__2" placeholder="Jan/2022">
                             <section>
                                 <!-- Situação academica-->
                                 <p class="formulario__texto__p">Qual sua situação atual em relação a sua formação?</p>
-                                <input class="formulario__radio" type="radio" id="cursando2" name="situação__formacao__2" value="Cursando">
-                                <label class="formulario__texto" for="cursando">Cursando</label>
-                                <input class="formulario__radio" type="radio" id="concluido2" name="situação__formacao__2" value="Concluído">
-                                <label class="formulario__texto" for="concluido">Concluído</label>
-                                <input class="formulario__radio" type="radio" id="interrompido2" name="situação__formacao__2" value="Interrompido">
-                                <label class="formulario__texto" for="interrompido">Interrompido</label>
+                                <div class="radio__flex">
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" id="cursando2" name="situação__formacao__2" value="Cursando">
+                                        <label class="formulario__texto" for="cursando">Cursando</label>
+                                    </section>
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" id="concluido2" name="situação__formacao__2" value="Concluído">
+                                        <label class="formulario__texto" for="concluido">Concluído</label>
+                                    </section>
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" id="interrompido2" name="situação__formacao__2" value="Interrompido">
+                                        <label class="formulario__texto" for="interrompido">Interrompido</label>
+                                    </section>
+                                </div>
                             </section>
                             <section>
                                 <label class="formulario__texto" for="escola__nome">Instituição</label>
