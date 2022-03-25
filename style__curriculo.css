@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Century Gothic Normal*/
+
+@font-face {
+    font-family: "Century Gothic";
+    src: url("Century Gothic.ttf")
+}
+
+
+/*Century Gothic Caixa Alta*/
+
+@font-face {
+    font-family: GOTHIC;
+    src: url("GOTHIC.ttf")
+}
+
+
+/*Century Gothic Caixa Alta bold*/
+
+@font-face {
+    font-family: GOTHICB0;
+    src: url("GOTHICB0.ttf")
+}
+
+@font-face {
+    font-family: CenturyGothic;
+    src: url("CenturyGothic.ttf")
+}
+
+
+/*Century Gothic Normal bold*/
+
+@font-face {
+    font-family: gothicb;
+    src: url("gothicb.ttf")
+}
+
+
+/*Century Gothic Italic*/
+
+@font-face {
+    font-family: century-gothic-italic;
+    src: url("century-gothic-italic.ttf")
+}
+
+
+/*Century Gothic Caixa italico bold*/
+
+@font-face {
+    font-family: gothicbi;
+    src: url("century-gothic-bold-italic.ttf")
+}
+
+#texto__nome {
+    text-align: left;
+    font-family: gothicb;
+    font-size: 23px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+
+/*Textos*/
+
+.data,
+.linha,
+.linha__historico,
+#linha__objetivo,
+#linha__resumo,
+#linha__perfil,
+#linha__endereco,
+#linha__telefone,
+#linha__email {
+    font-family: "Century Gothic";
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.topo {
+    background-color: #000;
+    margin-left: 15px;
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+/*Titulos*/
+
+#titulo__resumo__cv,
+#titulo__objetivo__cv,
+#titulo__historico__cv,
+#titulo__formacao__cv,
+#titulo__cursos__cv {
+    font-family: gothicb;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linha__historico__descricao {
+    padding-left: 27px;
+    font-family: "Century Gothic";
+}
+
+.linha__historico__curso {
+    padding-left: 15px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+}
+
+.data {
+    color: rgba(92, 92, 92, 0.664);
+}
+
+.bold {
+    font-family: gothicb;
+    font-size: 15px;
+}
+
+.bold2 {
+    font-family: gothicbi;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.italico {
+    font-family: century-gothic-italic;
+    font-size: 15px;
+    margin-left: 1px;
+}
+
+#linha__outros {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#linha__historico__descricao,
+#linha__historico__descricao2,
+#linha__historico__descricao3 {
+    margin-bottom: 20px;
+}

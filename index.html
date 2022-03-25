@@ -9,10 +9,9 @@
     <!-- SEO -->
     <title>Gerador de Currículo</title>
 
-    <link rel="stylesheet" href="style__button.css">
     <link rel="stylesheet" href="style__padrao.css">
     <link rel="stylesheet" href="style__mobile.css">
-    <script type="text/javascript" src="action.js"></script>
+
 
     <meta name="description" content="Gerador de Currículo Obline Gratis">
     <meta http-equiv="content-language" content="pt-br">
@@ -39,7 +38,7 @@
 
     </header>
     <section>
-        <form class="box_for">
+        <form id="form" class="box_for" action="curriculo.html">
             <h1 class="p__titulo__padrao">Gerador de Currículo</h1>
             <section id="formulario">
                 <div class="box__externo">
@@ -57,10 +56,21 @@
                             <label class="formulario__texto" for="estado__civil">Estado Civil</label>
                             <select class="formulario__campo__option" id="estado__civil" name="estado__civil">
                        <option class="formulario__campo__option__disabled" selected="" disabled="">Escolha</option>
-                       <option  value="Solteiro(a)">Solteiro(a)</option>
-                       <option  value="Casado(a)">Casado(a)</option>
-                       <option  value="Divorciado(a)">Divorciado(a)</option>
-                       <option  value="Viúvo(a)">Viúvo(a)</option>
+                       <option class="formulario__campo__option__disabled" disabled="">Gênero Masculino</option>
+                       <option  value="Solteiro">Solteiro</option>
+                       <option  value="Casado">Casado</option>
+                       <option  value="Divorciado">Divorciado</option>
+                       <option  value="Viúvo">Viúvo</option>
+                       <option class="formulario__campo__option__disabled" disabled="">Gênero Feminino</option>
+                       <option  value="Solteira">Solteira</option>
+                       <option  value="Casada">Casada</option>
+                       <option  value="Divorciada">Divorciada</option>
+                       <option  value="Viúva">Viúva</option>
+                       <option class="formulario__campo__option__disabled" disabled="">Gênero Neutro</option>
+                       <option  value="Solteirx">Solteirx</option>
+                       <option  value="Casadx">Casadx</option>
+                       <option  value="Divorciadx">Divorciadx</option>
+                       <option  value="Viúvx">Viúvx</option>
                        </select>
                         </section>
                         <section>
@@ -71,7 +81,7 @@
                         <section>
                             <!-- Telefone (apenas números)-->
                             <label class="formulario__texto" for="telefone">Telefone*</label>
-                            <input class="formulario__campo formulario__tel" type="tel" id="telefone" name="telefone" pattern="[0-9]){2}[0-9]{5}-[0-9]{4}" placeholder="Digite seu telefone">
+                            <input class="formulario__campo formulario__tel" type="tel" id="telefone" name="telefone" placeholder="Apenas números ex: 11963840978">
                         </section>
                         <section>
                             <!-- Data de nascimento (data)-->
@@ -166,91 +176,92 @@
                         <legend>Formação</legend>
                         <section>
                             <p class="formulario__texto__p">Primeira formação</p>
-                            <label class="formulario__texto" for="formacao">Formação</label>
+                            <!-- <label class="formulario__texto" for="formacao">Formação</label>
                             <select class="formulario__campo__option" id="formacao" name="formacao">
                              <option class="formulario__campo__option__disabled" selected="" disabled="">Escolha sua formação</option>
                              <option  value="Ensino Fundamental">Ensino Fundamental</option>
                              <option  value="Ensino Médio">Ensino Médio</option>
                              <option  value="Ensino Médio Técnico">Ensino Médio Técnico</option>
-                             <option  value="Curso Técnico">Curso Técnico</option>
-                             <option  value="Superior Bacharelado">Superior Bacharelado</option>
-                             <option  value="Superior Tecnólogo">Superior Tecnólogo</option>
-                             <option  value="Superior Licenciatura">Superior Licenciatura</option>
-                             <option  value="Superior Pós">Superior Pós</option>
-                           </select>
+                             <option  value="Técnico">Curso Técnico</option>
+                             <option  value="Bacharel">Superior Bacharelado</option>
+                             <option  value="Tecnólogo">Superior Tecnólogo</option>
+                             <option  value="Licenciatura">Superior Licenciatura</option>
+                             <option  value="Pós">Superior Pós</option>
+                           </select> -->
 
-                            <label class="formulario__texto" for="inicio_curso">Início</label>
+                            <!-- <label class="formulario__texto" for="inicio_curso">Início</label>
                             <input class="formulario__campo__forma" type="text" name="inicio_curso" placeholder="Jan/2020">
                             <label class="formulario__texto" for="saida_curso">Previsão / fim</label>
-                            <input class="formulario__campo__forma" type="text" name="saida_curso" placeholder="Jan/2022">
-                            <section>
-                                <!-- Situação academica-->
-                                <p class="formulario__texto__p">Qual sua situação atual em relação a sua formação?</p>
-                                <div class="radio__flex">
-                                    <section class="radio__block">
-                                        <input class="formulario__radio" type="radio" id="cursando" name="situação__formacao__2" value="Cursando">
-                                        <label class="formulario__texto" for="cursando">Cursando</label>
-                                    </section>
-                                    <section class="radio__block">
-                                        <input class="formulario__radio" type="radio" id="concluido" name="situação__formacao__2" value="Concluído">
-                                        <label class="formulario__texto" for="concluido">Concluído</label>
-                                    </section>
-                                    <section class="radio__block">
-                                        <input class="formulario__radio" type="radio" id="interrompido" name="situação__formacao__2" value="Interrompido">
-                                        <label class="formulario__texto" for="interrompido">Interrompido</label>
-                                    </section>
-                                </div>
-                            </section>
+                            <input class="formulario__campo__forma" type="text" name="saida_curso" placeholder="Jan/2022"> -->
+
                             <section>
                                 <label class="formulario__texto" for="escola__nome">Instituição</label>
                                 <input class="formulario__campo" type="text" id="escola__nome" name="escola__nome" placeholder="Nome da instituição">
                             </section>
                             <label class="formulario__texto" for="nome__curso">Curso</label>
-                            <input class="formulario__campo" type="text" id="nome__curso" name="nome__curso" placeholder="Adminstração | 2° ano ensino médio">
-                        </section>
-                        <section>
-                            <p class="formulario__texto__p">Segunda formação</p>
-                            <label class="formulario__texto" for="formacao">Formação</label>
-                            <select class="formulario__campo__option" id="formacao__2" name="formacao">
-                             <option class="formulario__campo__option__disabled" selected="" disabled="">Escolha sua formação</option>
-                             <option  value="Ensino Fundamental">Ensino Fundamental</option>
-                             <option  value="Ensino Médio">Ensino Médio</option>
-                             <option  value="Ensino Médio Técnico">Ensino Médio Técnico</option>
-                             <option  value="Curso Técnico">Curso Técnico</option>
-                             <option  value="Superior Bacharelado">Superior Bacharelado</option>
-                             <option  value="Superior Tecnólogo">Superior Tecnólogo</option>
-                             <option  value="Superior Licenciatura">Superior Licenciatura</option>
-                             <option  value="Superior Pós">Superior Pós</option>
-                           </select>
-
-                            <label class="formulario__texto" for="inicio_curso">Início</label>
-                            <input class="formulario__campo__forma" type="text" name="inicio_curso__2" placeholder="Jan/2020">
-                            <label class="formulario__texto" for="saida_curso">Previsão / fim</label>
-                            <input class="formulario__campo__forma" type="text" name="saida_curso__2" placeholder="Jan/2022">
+                            <input class="formulario__campo" type="text" id="nome__curso" name="nome__curso" placeholder="Adminstração | 2° ano">
                             <section>
-                                <!-- Situação academica-->
                                 <p class="formulario__texto__p">Qual sua situação atual em relação a sua formação?</p>
                                 <div class="radio__flex">
                                     <section class="radio__block">
-                                        <input class="formulario__radio" type="radio" id="cursando2" name="situação__formacao__2" value="Cursando">
+                                        <input class="formulario__radio" type="radio" id="cursando" name="situação__formacao__1" value="Cursando">
                                         <label class="formulario__texto" for="cursando">Cursando</label>
                                     </section>
                                     <section class="radio__block">
-                                        <input class="formulario__radio" type="radio" id="concluido2" name="situação__formacao__2" value="Concluído">
+                                        <input class="formulario__radio" type="radio" id="concluido" name="situação__formacao__1" value="Concluído">
                                         <label class="formulario__texto" for="concluido">Concluído</label>
                                     </section>
                                     <section class="radio__block">
-                                        <input class="formulario__radio" type="radio" id="interrompido2" name="situação__formacao__2" value="Interrompido">
+                                        <input class="formulario__radio" type="radio" id="interrompido" name="situação__formacao__1" value="Interrompido">
                                         <label class="formulario__texto" for="interrompido">Interrompido</label>
                                     </section>
                                 </div>
                             </section>
+                        </section>
+
+                        <section>
+                            <p class="formulario__texto__p">Segunda formação</p>
+                            <!-- <label class="formulario__texto" for="formacao2">Formação</label>
+                            <select class="formulario__campo__option" id="formacao__2" name="formacao2">
+                             <option class="formulario__campo__option__disabled" selected="" disabled="">Escolha sua formação</option>
+                             <option  value="Ensino Fundamental">Ensino Fundamental</option>
+                             <option  value="Ensino Médio">Ensino Médio</option>
+                             <option  value="Ensino Médio Técnico">Ensino Médio Técnico</option>
+                             <option  value="Técnico">Curso Técnico</option>
+                             <option  value="Bacharel">Superior Bacharelado</option>
+                             <option  value="Tecnólogo">Superior Tecnólogo</option>
+                             <option  value="Licenciatura">Superior Licenciatura</option>
+                             <option  value="Pós">Superior Pós</option>
+                           </select> -->
+
+                            <!-- <label class="formulario__texto" for="inicio_curso">Início</label>
+                            <input class="formulario__campo__forma" type="text" name="inicio_curso__2" placeholder="Jan/2020">
+                            <label class="formulario__texto" for="saida_curso">Previsão / fim</label>
+                            <input class="formulario__campo__forma" type="text" name="saida_curso__2" placeholder="Jan/2022"> -->
+
                             <section>
-                                <label class="formulario__texto" for="escola__nome">Instituição</label>
+                                <label class="formulario__texto" for="escola__nome__2">Instituição</label>
                                 <input class="formulario__campo" type="text" id="escola__nome__2" name="escola__nome__2" placeholder="Nome da instituição">
                             </section>
-                            <label class="formulario__texto" for="nome__curso">Curso</label>
-                            <input class="formulario__campo" type="text" id="nome__curso__2" name="nome__curso__2" placeholder="Adminstração | 2° ano ensino médio">
+                            <label class="formulario__texto" for="nome__curso__2">Curso</label>
+                            <input class="formulario__campo" type="text" id="nome__curso__2" name="nome__curso__2" placeholder="Adminstração | 2° ano">
+                            <section>
+                                <p class="formulario__texto__p">Qual sua situação atual em relação a sua formação?</p>
+                                <div class="radio__flex">
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" name="situação__formacao__2" value="Cursando">
+                                        <label class="formulario__texto" for="cursando">Cursando</label>
+                                    </section>
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" name="situação__formacao__2" value="Concluído">
+                                        <label class="formulario__texto" for="concluido">Concluído</label>
+                                    </section>
+                                    <section class="radio__block">
+                                        <input class="formulario__radio" type="radio" name="situação__formacao__2" value="Interrompido">
+                                        <label class="formulario__texto" for="interrompido">Interrompido</label>
+                                    </section>
+                                </div>
+                            </section>
                         </section>
                     </fieldset>
                     <fieldset class="teste">
@@ -261,10 +272,24 @@
                             <input class="formulario__campo" type="text" id="local__curso1" name="local__curso1" placeholder="Nome da instituição">
                             <label class="formulario__texto" for="nome__curso1">Curso</label>
                             <input class="formulario__campo" type="text" id="nome__curso1" name="nome__curso1" placeholder="ex: Excel">
-                            <label class="formulario__texto" for="inicio_curso1">Início</label>
+                            <!-- <label class="formulario__texto" for="inicio_curso1">Início</label>
                             <input class="formulario__campo__menor2" type="text" id="inicio_curso1" name="inicio_curso1" placeholder="Jan/2020">
                             <label class="formulario__texto" for="saida_curso1">Fim</label>
-                            <input class="formulario__campo__menor2" type="text" id="saida_curso1" name="saida_curso1" placeholder="Jan/2022">
+                            <input class="formulario__campo__menor2" type="text" id="saida_curso1" name="saida_curso1" placeholder="Jan/2022"> -->
+                            <p class="formulario__texto__p">Qual a situação atual do curso?</p>
+                            <div class="radio__flex">
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__1" value="Cursando">
+                                    <label class="formulario__texto" for="cursando">Cursando</label>
+                                </section>
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__1" value="Concluído">
+                                    <label class="formulario__texto" for="concluido">Concluído</label>
+                                </section>
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__1" value="Interrompido">
+                                    <label class="formulario__texto" for="interrompido">Interrompido</label>
+                                </section>
                         </section>
 
                         <section>
@@ -273,10 +298,24 @@
                             <input class="formulario__campo" type="text" id="local__curso2" name="local__curso2" placeholder="Nome da instituição">
                             <label class="formulario__texto" for="nome__curso2">Curso</label>
                             <input class="formulario__campo" type="text" id="nome__curso2" name="nome__curso2" placeholder="ex: Excel">
-                            <label class="formulario__texto" for="inicio_curso2">Início</label>
+                            <!-- <label class="formulario__texto" for="inicio_curso2">Início</label>
                             <input class="formulario__campo__menor2" type="text" id="inicio_curso2" name="inicio_curso2" placeholder="Jan/2020">
                             <label class="formulario__texto" for="saida_curso2">Fim</label>
-                            <input class="formulario__campo__menor2" type="text" id="saida_curso2" name="saida_curso2" placeholder="Jan/2022">
+                            <input class="formulario__campo__menor2" type="text" id="saida_curso2" name="saida_curso2" placeholder="Jan/2022"> -->
+                            <p class="formulario__texto__p">Qual a situação atual do curso?</p>
+                            <div class="radio__flex">
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__2" value="Cursando">
+                                    <label class="formulario__texto" for="cursando">Cursando</label>
+                                </section>
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__2" value="Concluído">
+                                    <label class="formulario__texto" for="concluido">Concluído</label>
+                                </section>
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__2" value="Interrompido">
+                                    <label class="formulario__texto" for="interrompido">Interrompido</label>
+                                </section>
                         </section>
 
                         <section>
@@ -285,81 +324,106 @@
                             <input class="formulario__campo" type="text" id="local__curso3" name="local__curso3" placeholder="Nome da instituição">
                             <label class="formulario__texto" for="nome__curso3">Curso</label>
                             <input class="formulario__campo" type="text" id="nome__curso3" name="nome__curso3" placeholder="ex: Excel">
-                            <label class="formulario__texto" for="inicio_curso3">Início</label>
+                            <!-- <label class="formulario__texto" for="inicio_curso3">Início</label>
                             <input class="formulario__campo__menor2" type="text" id="inicio_curso3" name="inicio_curso3" placeholder="Jan/2020">
                             <label class="formulario__texto" for="saida_curso3">Fim</label>
-                            <input class="formulario__campo__menor2" type="text" id="saida_curso3" name="saida_curso3" placeholder="Jan/2022">
-                        </section>
-                    </fieldset>
-                </div>
-                <div class="box__externo">
-                    <fieldset class="teste">
-                        <legend>Resumo</legend>
-                        <section>
-                            <label class="formulario__texto" for="resumo">Resumo Profissional</label>
-                            <textarea class="formulario__textarea" id="resumo" name="resumo" rows="4" cols="50" placeholder="Resumo da sua vida profissional e academica"></textarea>
-                        </section>
-                    </fieldset>
+                            <input class="formulario__campo__menor2" type="text" id="saida_curso3" name="saida_curso3" placeholder="Jan/2022"> -->
+                            <p class="formulario__texto__p">Qual a situação atual do curso?</p>
+                            <div class="radio__flex">
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__3" value="Cursando">
+                                    <label class="formulario__texto" for="cursando">Cursando</label>
+                                </section>
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__3" value="Concluído">
+                                    <label class="formulario__texto" for="concluido">Concluído</label>
+                                </section>
+                                <section class="radio__block">
+                                    <input class="formulario__radio" type="radio" name="situação__curso__3" value="Interrompido">
+                                    <label class="formulario__texto" for="interrompido">Interrompido</label>
+                                </section>
 
-                    <!-- Historico Profissional -->
-                    <fieldset class="teste">
-                        <legend>Histórico Profissional</legend>
-                        <!-- Experiencia 1 -->
-                        <section>
-                            <p class="formulario__texto__p">Última experiência ou atual</p>
-                            <label class="formulario__texto" for="name_empresa__1">Empresa</label>
-                            <input class="formulario__campo" type="text" id="name_empresa__1" name="name_empresa__1" placeholder="Nome da empresa">
-                            <label class="formulario__texto" for="cargo_empresa__1">Cargo</label>
-                            <input class="formulario__campo" type="text" id="cargo_empresa__1" name="cargo_empresa__1" placeholder="Seu cargo">
-                            <label class="formulario__texto" for="inicio_empresa__1">Início</label>
-                            <input class="formulario__campo__menor" type="text" id="inicio_empresa__1" name="inicio_empresa__1" placeholder="Jan/2020">
-                            <label class="formulario__texto" for="saida_empresa__1">Saída</label>
-                            <input class="formulario__campo__menor" type="text" id="saida_empresa__1" name="saida_empresa__1" placeholder="Jan/2022">
-                            <label class="formulario__texto" for="resumo__empresa1">Descrição das atividades</label>
-                            <textarea class="formulario__textarea" id="resumo__empresa1" name="resumo__empresa1" rows="4" cols="50" placeholder="Resumo das suas atividades na empresa"></textarea>
-                        </section>
-                        <!-- Experiencia 2 -->
-                        <section>
-                            <p class="formulario__texto__p">Penúltima experiência</p>
-                            <label class="formulario__texto" for="name_empresa__2">Empresa</label>
-                            <input class="formulario__campo" type="text" id="name_empresa__2" name="name_empresa__2" placeholder="Nome da empresa">
-                            <label class="formulario__texto" for="cargo_empresa__2">Cargo</label>
-                            <input class="formulario__campo" type="text" id="cargo_empresa__2" name="cargo_empresa__2" placeholder="Seu cargo">
-                            <label class="formulario__texto" for="inicio_empresa__2">Início</label>
-                            <input class="formulario__campo__menor" type="text" id="inicio_empresa__2" name="inicio_empresa__2" placeholder="Jan/2020">
-                            <label class="formulario__texto" for="saida_empresa__2">Saída</label>
-                            <input class="formulario__campo__menor" type="text" id="saida_empresa__2" name="saida_empresa__2" placeholder="Jan/2022">
-                            <label class="formulario__texto" for="resumo__empresa2">Descrição das atividades</label>
-                            <textarea class="formulario__textarea" id="resumo__empresa2" name="resumo__empresa2" rows="4" cols="50" placeholder="Resumo das suas atividades na empresa"></textarea>
-                        </section>
-                        <!-- Experiencia 3 -->
-                        <section>
-                            <p class="formulario__texto__p">Antepenúltima experiência</p>
-                            <label class="formulario__texto" for="name_empresa__3">Empresa</label>
-                            <input class="formulario__campo" type="text" id="name_empresa__3" name="name_empresa__3" placeholder="Nome da empresa">
-                            <label class="formulario__texto" for="cargo_empresa__3">Cargo</label>
-                            <input class="formulario__campo" type="text" id="cargo_empresa__3" name="cargo_empresa__3" placeholder="Seu cargo">
-                            <label class="formulario__texto" for="inicio_empresa__3">Início</label>
-                            <input class="formulario__campo__menor" type="text" id="inicio_empresa__3" name="inicio_empresa__3" placeholder="Jan/2020">
-                            <label class="formulario__texto" for="saida_empresa__3">Saída</label>
-                            <input class="formulario__campo__menor" type="text" id="saida_empresa__3" name="saida_empresa__3" placeholder="Jan/2022">
-                            <label class="formulario__texto" for="resumo__empresa3">Descrição das atividades</label>
-                            <textarea class="formulario__textarea" id="resumo__empresa3" name="resumo__empresa3" rows="4" cols="50" placeholder="Resumo das suas atividades na empresa"></textarea>
                         </section>
                     </fieldset>
-                    <!-- Outros Conhecimentos -->
-                    <fieldset class="teste">
-                        <legend>Outros Conhecimentos</legend>
-                        <section>
-                            <label class="formulario__texto" for="outros__conhecimentos">Descreva outros conhecimentos relevantes</label>
-                            <textarea class="formulario__textarea" id="outros__conhecimentos" name="outros__conhecimentos" rows="4" cols="50" placeholder="ex: Excel, Outlook, Access, Word, Internet, Windows, Linux, Inglês e Espanhol."></textarea>
+                    </div>
+                    <div class="box__externo">
+
+                        <fieldset class="teste">
+                            <legend>Objetivo Profissional</legend>
+                            <section>
+                                <label class="formulario__texto" for="objetivo">Seu objetivo</label>
+                                <input class="formulario__campo" id="objetivo" name="objetivo" placeholder="Cargo pretendido"></input>
+                            </section>
+                        </fieldset>
+
+                        <fieldset class="teste">
+                            <legend>Resumo</legend>
+                            <section>
+                                <label class="formulario__texto" for="resumo">Resumo Profissional</label>
+                                <textarea class="formulario__textarea" id="resumo" name="resumo" rows="4" cols="50" placeholder="Resumo da sua vida profissional e academica"></textarea>
+                            </section>
+                        </fieldset>
+
+                        <!-- Historico Profissional -->
+                        <fieldset class="teste">
+                            <legend>Histórico Profissional</legend>
+                            <!-- Experiencia 1 -->
+                            <section>
+                                <p class="formulario__texto__p">Última experiência ou atual</p>
+                                <label class="formulario__texto" for="name_empresa__1">Empresa</label>
+                                <input class="formulario__campo" type="text" id="name_empresa__1" name="name_empresa__1" placeholder="Nome da empresa">
+                                <label class="formulario__texto" for="cargo_empresa__1">Cargo</label>
+                                <input class="formulario__campo" type="text" id="cargo_empresa__1" name="cargo_empresa__1" placeholder="Seu cargo">
+                                <label class="formulario__texto" for="inicio_empresa__1">Início</label>
+                                <input class="formulario__campo__menor" type="text" id="inicio_empresa__1" name="inicio_empresa__1" placeholder="Jan/2020">
+                                <label class="formulario__texto" for="saida_empresa__1">Saída</label>
+                                <input class="formulario__campo__menor" type="text" id="saida_empresa__1" name="saida_empresa__1" placeholder="Jan/2022">
+                                <label class="formulario__texto" for="resumo__empresa1">Descrição das atividades</label>
+                                <textarea class="formulario__textarea" id="resumo__empresa1" name="resumo__empresa1" rows="4" cols="50" placeholder="Resumo das suas atividades na empresa"></textarea>
+                            </section>
+                            <!-- Experiencia 2 -->
+                            <section>
+                                <p class="formulario__texto__p">Penúltima experiência</p>
+                                <label class="formulario__texto" for="name_empresa__2">Empresa</label>
+                                <input class="formulario__campo" type="text" id="name_empresa__2" name="name_empresa__2" placeholder="Nome da empresa">
+                                <label class="formulario__texto" for="cargo_empresa__2">Cargo</label>
+                                <input class="formulario__campo" type="text" id="cargo_empresa__2" name="cargo_empresa__2" placeholder="Seu cargo">
+                                <label class="formulario__texto" for="inicio_empresa__2">Início</label>
+                                <input class="formulario__campo__menor" type="text" id="inicio_empresa__2" name="inicio_empresa__2" placeholder="Jan/2020">
+                                <label class="formulario__texto" for="saida_empresa__2">Saída</label>
+                                <input class="formulario__campo__menor" type="text" id="saida_empresa__2" name="saida_empresa__2" placeholder="Jan/2022">
+                                <label class="formulario__texto" for="resumo__empresa2">Descrição das atividades</label>
+                                <textarea class="formulario__textarea" id="resumo__empresa2" name="resumo__empresa2" rows="4" cols="50" placeholder="Resumo das suas atividades na empresa"></textarea>
+                            </section>
+                            <!-- Experiencia 3 -->
+                            <section>
+                                <p class="formulario__texto__p">Antepenúltima experiência</p>
+                                <label class="formulario__texto" for="name_empresa__3">Empresa</label>
+                                <input class="formulario__campo" type="text" id="name_empresa__3" name="name_empresa__3" placeholder="Nome da empresa">
+                                <label class="formulario__texto" for="cargo_empresa__3">Cargo</label>
+                                <input class="formulario__campo" type="text" id="cargo_empresa__3" name="cargo_empresa__3" placeholder="Seu cargo">
+                                <label class="formulario__texto" for="inicio_empresa__3">Início</label>
+                                <input class="formulario__campo__menor" type="text" id="inicio_empresa__3" name="inicio_empresa__3" placeholder="Jan/2020">
+                                <label class="formulario__texto" for="saida_empresa__3">Saída</label>
+                                <input class="formulario__campo__menor" type="text" id="saida_empresa__3" name="saida_empresa__3" placeholder="Jan/2022">
+                                <label class="formulario__texto" for="resumo__empresa3">Descrição das atividades</label>
+                                <textarea class="formulario__textarea" id="resumo__empresa3" name="resumo__empresa3" rows="4" cols="50" placeholder="Resumo das suas atividades na empresa"></textarea>
+                            </section>
+                        </fieldset>
+                        <!-- Outros Conhecimentos -->
+                        <fieldset class="teste">
+                            <legend>Outros Conhecimentos</legend>
+                            <section>
+                                <label class="formulario__texto" for="outros__conhecimentos">Descreva outros conhecimentos relevantes</label>
+                                <textarea class="formulario__textarea" id="outros__conhecimentos" name="outros__conhecimentos" rows="4" cols="50" placeholder="ex: Excel, Outlook, Access, Word, Internet, Windows, Linux, Inglês e Espanhol."></textarea>
+                            </section>
+                        </fieldset>
+                        <section class="centralizar__button">
+                            <button type="submit">Gerar Currículo</button>
                         </section>
-                    </fieldset>
-                    <section class="centralizar__button">
-                        <button type="submit">Gerar Currículo</button>
+                        <script type="text/javascript" src="action.js"></script>
+                    </div>
                     </section>
-                </div>
-                </section>
         </form>
 
 

@@ -173,6 +173,24 @@ Surface pro 7 912 ok
         width: 330px;
         margin: 0 auto;
     }
+    .formulario__texto {
+        font-size: 13px;
+    }
+    .formulario__texto__p {
+        font-size: 13px;
+    }
+    input::placeholder {
+        font-size: 13px;
+    }
+    .formulario__textarea::placeholder {
+        font-size: 13px;
+    }
+    option::placeholder {
+        font-size: 13px;
+    }
+    legend {
+        font-size: 16px;
+    }
 }
 
 

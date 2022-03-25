@@ -339,28 +339,57 @@ input[type='checkbox']:checked:after {
 
 /* colocando um icone no campo do formulario do text/nome como background */
 
-input[type='text'] {
-    /* background-image: url("../img/perfil.svg");*/
+input[id="name"] {
+    background-image: url("perfil.svg");
+    background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
 }
 
-
-/* colocando um icone no campo do formulario do email como background */
-
-input[type='email'] {
-    /* background-image: url("../img/email.svg");*/
+input[id="nacionalidade"] {
+    background-image: url("nacionalidade.svg");
+    background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
 }
-
-
-/* colocando um icone no campo do formulario do telefone como background */
 
 input[type='tel'] {
-    /* background-image: url("../img/telefone.svg");*/
+    background-image: url("telefone.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[type='email'] {
+    background-image: url("email.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="cep"] {
+    background-image: url("cep.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="bairro"] {
+    background-image: url("bairro.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="cidade"] {
+    background-image: url("cidade.svg");
+    background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
@@ -369,35 +398,219 @@ input[type='tel'] {
 
 /* colocando um icone no campo do formulario do date como background */
 
+
+/* 
 input[type='date'] {
-    /* background-image: url("../img/data.svg");*/
-    background-position-y: 5.7px;
-    background-position-x: 123px;
+    background-image: url("data.svg");
+    z-index: 100px;
+    background-size: 25px;
+    background-position-y: 4px;
+    background-position-x: 146px;
     background-repeat: no-repeat;
-}
+} */
 
 
 /* webkit para manipular as cores / comportamento do input data / Funciona no Google*/
 
- ::-webkit-datetime-edit-month-field:hover,
- ::-webkit-datetime-edit-day-field:hover,
- ::-webkit-datetime-edit-year-field:hover {
+::-webkit-datetime-edit-month-field:hover,
+::-webkit-datetime-edit-day-field:hover,
+::-webkit-datetime-edit-year-field:hover {
     background-color: #041b91;
     color: #fff
 }
 
- ::-webkit-datetime-edit-year-field:focus,
- ::-webkit-datetime-edit-month-field:focus,
- ::-webkit-datetime-edit-day-field:focus {
+::-webkit-datetime-edit-year-field:focus,
+::-webkit-datetime-edit-month-field:focus,
+::-webkit-datetime-edit-day-field:focus {
     background-color: #041b91;
     color: #fff;
 }
 
 
-/* webkit para trocar o incone padão do input data / Funciona no Google
+/* webkit para trocar o incone padão do input data / Funciona no Google*/
 
- ::-webkit-calendar-picker-indicator {
-    background-image: url("../img/data.svg");
+::-webkit-calendar-picker-indicator {
+    background-image: url("data.svg");
+}
+
+input[id="escola__nome"] {
+    background-image: url("instituicao.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="escola__nome__2"] {
+    background-image: url("instituicao.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="nome__curso"] {
+    background-image: url("formacao.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="nome__curso__2"] {
+    background-image: url("formacao.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="local__curso1"] {
+    background-image: url("curso.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="local__curso3"] {
+    background-image: url("curso.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="local__curso2"] {
+    background-image: url("curso.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="nome__curso1"] {
+    background-image: url("nome__curso.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="nome__curso2"] {
+    background-image: url("nome__curso.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="nome__curso3"] {
+    background-image: url("nome__curso.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+
+/* textarea[id="resumo"] {
+    background-image: url("resumo.svg");
+    background-size: 35px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+} */
+
+input[id="name_empresa__1"] {
+    background-image: url("empresa.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="name_empresa__2"] {
+    background-image: url("empresa.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="name_empresa__3"] {
+    background-image: url("empresa.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="cargo_empresa__1"] {
+    background-image: url("cargo.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="cargo_empresa__2"] {
+    background-image: url("cargo.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="cargo_empresa__3"] {
+    background-image: url("cargo.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+input[id="objetivo"] {
+    background-image: url("objetivo.svg");
+    background-size: 25px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+
+/* 
+textarea[id="resumo__empresa1"] {
+    background-image: url("fun.svg");
+    background-size: 35px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+textarea[id="resumo__empresa2"] {
+    background-image: url("fun.svg");
+    background-size: 35px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+textarea[id="resumo__empresa3"] {
+    background-image: url("fun.svg");
+    background-size: 35px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+} */
+
+
+/* textarea[id="outros__conhecimentos"] {
+    background-image: url("resu.svg");
+    background-size: 35px;
+    background-position: 4px 4px;
+    background-position-x: right;
+    background-repeat: no-repeat;
 } */
 
 
