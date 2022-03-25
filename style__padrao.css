@@ -121,6 +121,13 @@ header {
     font-weight: bold;
 }
 
+.formulario__texto__p2 {
+    margin: 9px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color: #0d228b;
+}
+
 
 /*Propriedades do input dos formularios*/
 

@@ -61,6 +61,9 @@ Nest hub Max 1280 ok
     .formulario__texto__p {
         font-size: 14px;
     }
+    .formulario__texto__p2 {
+        font-size: 14px;
+    }
     input::placeholder {
         font-size: 14px;
     }
@@ -139,6 +142,9 @@ Surface pro 7 912 ok
     .formulario__texto__p {
         font-size: 12px;
     }
+    .formulario__texto__p2 {
+        font-size: 12px;
+    }
     input::placeholder {
         font-size: 12px;
     }
@@ -154,6 +160,9 @@ Surface pro 7 912 ok
     /*Titulos das categorias do formulario*/
     .p__footer {
         font-size: 11px;
+    }
+    .formulario__campo__option__disabled {
+        font-size: 12px;
     }
 }
 
@@ -179,6 +188,9 @@ Surface pro 7 912 ok
     .formulario__texto__p {
         font-size: 13px;
     }
+    .formulario__texto__p2 {
+        font-size: 13px;
+    }
     input::placeholder {
         font-size: 13px;
     }
@@ -190,6 +202,9 @@ Surface pro 7 912 ok
     }
     legend {
         font-size: 16px;
+    }
+    .formulario__campo__option__disabled {
+        font-size: 11px;
     }
 }
 
@@ -273,6 +288,9 @@ Iphone SE
         font-size: 16px;
     }
     /*Titulos das categorias do formulario*/
+    .formulario__campo__option__disabled {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 280px) {

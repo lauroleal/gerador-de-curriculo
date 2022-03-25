@@ -124,7 +124,7 @@
                         }
                         if (key == 'nome__curso') {
                             let form = document.getElementById('linha__forma').innerHTML;
-                            let valor__campo = `<span class="bold2">${valor}</span>, ${form}`;
+                            let valor__campo = `<span class="bold">${valor}</span>, ${form}`;
                             document.getElementById('linha__forma').innerHTML = valor__campo;
                         }
                         if (key == 'situação__formacao__1') {
@@ -139,7 +139,7 @@
                         }
                         if (key == 'nome__curso__2') {
                             let form = document.getElementById('linha__forma2').innerHTML;
-                            let valor__campo = `<span class="bold2">${valor}</span>, ${form}`;
+                            let valor__campo = `<span class="bold">${valor}</span>, ${form}`;
                             document.getElementById('linha__forma2').innerHTML = valor__campo;
                         }
                         if (key == 'situação__formacao__2') {
@@ -161,7 +161,7 @@
                         }
                         if (key == 'nome__curso1') {
                             let form = document.getElementById('linha__curso').innerHTML;
-                            let valor__campo = `<span class="bold2">${valor}</span>, ${form}`;
+                            let valor__campo = `<span class="bold">${valor}</span>, ${form}`;
                             document.getElementById('linha__curso').innerHTML = valor__campo;
                         }
                         if (key == 'situação__curso__1') {
@@ -182,7 +182,7 @@
                         }
                         if (key == 'nome__curso2') {
                             let form = document.getElementById('linha__curso2').innerHTML;
-                            let valor__campo = `<span class="bold2">${valor}</span>, ${form}`;
+                            let valor__campo = `<span class="bold">${valor}</span>, ${form}`;
                             document.getElementById('linha__curso2').innerHTML = valor__campo;
                         }
                         if (key == 'situação__curso__2') {
@@ -203,7 +203,7 @@
                         }
                         if (key == 'nome__curso3') {
                             let form = document.getElementById('linha__curso3').innerHTML;
-                            let valor__campo = `<span class="bold2">${valor}</span>, ${form}`;
+                            let valor__campo = `<span class="bold">${valor}</span>, ${form}`;
                             document.getElementById('linha__curso3').innerHTML = valor__campo;
                         }
                         if (key == 'situação__curso__3') {
@@ -316,22 +316,26 @@
                             document.getElementById('linha__outros').innerHTML = valor;
                         }
 
-
-
-
-
-
-
-
-
-
-
-
-
                     }
                 });
             </script>
+            <script>
+                let exp1 = document.getElementById('linha__historico').innerHTML;
+                let exp2 = document.getElementById('linha__historico2').innerHTML;
+                let exp3 = document.getElementById('linha__historico3').innerHTML;
+
+                if (exp1 == '' && exp2 == '' && exp3 == '') {
+                    document.getElementById('linha__historico3').innerHTML = 'Primeiro Emprego';
+                }
+                let resum = document.getElementById('linha__resumo').innerHTML;
+                if (resum == '') {
+                    document.getElementById('titulo__resumo__cv').innerHTML = '';
+                }
+            </script>
         </section>
+        <footer>
+            <div class="baixo"></div>
+        </footer>
 </body>
 
 </html>
