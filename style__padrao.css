@@ -121,6 +121,10 @@ header {
     font-weight: bold;
 }
 
+.p__texto {
+    text-align: center;
+}
+
 .formulario__texto__p2 {
     margin: 9px;
     font-family: 'PT Sans Narrow', sans-serif;
