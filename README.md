@@ -5,7 +5,7 @@ Com esse gerador espero conseguir reduzir a dependência deles nas próximas vez
 
 
 ## Saída esperada:
-![Modelo desenvolvido para a atividade](https://i.imgur.com/7iaD58r.png)
+![Modelo desenvolvido para a atividade](https://i.imgur.com/rnxg4IJ.png)
 
 > Imagem saída esperado quando os campos do formulário forem preenchidos.
 
