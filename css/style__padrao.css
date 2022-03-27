@@ -351,7 +351,7 @@ input[type='checkbox']:checked:after {
 /* colocando um icone no campo do formulario do text/nome como background */
 
 input[id="name"] {
-    background-image: url("/img/perfil.svg");
+    background-image: url("gerador-de-curriculo/img/perfil.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -359,7 +359,7 @@ input[id="name"] {
 }
 
 input[id="nacionalidade"] {
-    background-image: url("/img/nacionalidade.svg");
+    background-image: url("gerador-de-curriculo/img/nacionalidade.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -367,7 +367,7 @@ input[id="nacionalidade"] {
 }
 
 input[type='tel'] {
-    background-image: url("/img/telefone.svg");
+    background-image: url("gerador-de-curriculo/img/telefone.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -375,7 +375,7 @@ input[type='tel'] {
 }
 
 input[type='email'] {
-    background-image: url("/img/email.svg");
+    background-image: url("gerador-de-curriculo/img/email.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -383,7 +383,7 @@ input[type='email'] {
 }
 
 input[id="cep"] {
-    background-image: url("/img/cep.svg");
+    background-image: url("gerador-de-curriculo/img/cep.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -391,7 +391,7 @@ input[id="cep"] {
 }
 
 input[id="bairro"] {
-    background-image: url("/img/bairro.svg");
+    background-image: url("gerador-de-curriculo/img/bairro.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -399,7 +399,7 @@ input[id="bairro"] {
 }
 
 input[id="cidade"] {
-    background-image: url("/img/cidade.svg");
+    background-image: url("gerador-de-curriculo/img/cidade.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -441,11 +441,11 @@ input[type='date'] {
 /* webkit para trocar o incone padão do input data / Funciona no Google*/
 
 ::-webkit-calendar-picker-indicator {
-    background-image: url("/img/data.svg");
+    background-image: url("gerador-de-curriculo/img/data.svg");
 }
 
 input[id="escola__nome"] {
-    background-image: url("/img/instituicao.svg");
+    background-image: url("gerador-de-curriculo/img/instituicao.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -453,7 +453,7 @@ input[id="escola__nome"] {
 }
 
 input[id="escola__nome__2"] {
-    background-image: url("/img/instituicao.svg");
+    background-image: url("gerador-de-curriculo/img/instituicao.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -461,7 +461,7 @@ input[id="escola__nome__2"] {
 }
 
 input[id="nome__curso"] {
-    background-image: url("/img/formacao.svg");
+    background-image: url("gerador-de-curriculo/img/formacao.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -469,7 +469,7 @@ input[id="nome__curso"] {
 }
 
 input[id="nome__curso__2"] {
-    background-image: url("/img/formacao.svg");
+    background-image: url("gerador-de-curriculo/img/formacao.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -477,7 +477,7 @@ input[id="nome__curso__2"] {
 }
 
 input[id="local__curso1"] {
-    background-image: url("/img/curso.svg");
+    background-image: url("gerador-de-curriculo/img/curso.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -485,7 +485,7 @@ input[id="local__curso1"] {
 }
 
 input[id="local__curso3"] {
-    background-image: url("/img/curso.svg");
+    background-image: url("gerador-de-curriculo/img/curso.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -493,7 +493,7 @@ input[id="local__curso3"] {
 }
 
 input[id="local__curso2"] {
-    background-image: url("/img/curso.svg");
+    background-image: url("gerador-de-curriculo/img/curso.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -501,7 +501,7 @@ input[id="local__curso2"] {
 }
 
 input[id="nome__curso1"] {
-    background-image: url("nome__curso.svg");
+    background-image: url("gerador-de-curriculo/img/nome__curso.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -509,7 +509,7 @@ input[id="nome__curso1"] {
 }
 
 input[id="nome__curso2"] {
-    background-image: url("/img/nome__curso.svg");
+    background-image: url("gerador-de-curriculo/img/nome__curso.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -517,7 +517,7 @@ input[id="nome__curso2"] {
 }
 
 input[id="nome__curso3"] {
-    background-image: url("/img/nome__curso.svg");
+    background-image: url("gerador-de-curriculo/img/nome__curso.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -534,7 +534,7 @@ input[id="nome__curso3"] {
 } */
 
 input[id="name_empresa__1"] {
-    background-image: url("/img/empresa.svg");
+    background-image: url("gerador-de-curriculo/img/empresa.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -542,7 +542,7 @@ input[id="name_empresa__1"] {
 }
 
 input[id="name_empresa__2"] {
-    background-image: url("/img/empresa.svg");
+    background-image: url("gerador-de-curriculo/img/empresa.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -550,7 +550,7 @@ input[id="name_empresa__2"] {
 }
 
 input[id="name_empresa__3"] {
-    background-image: url("/img/empresa.svg");
+    background-image: url("gerador-de-curriculo/img/empresa.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -558,7 +558,7 @@ input[id="name_empresa__3"] {
 }
 
 input[id="cargo_empresa__1"] {
-    background-image: url("/img/cargo.svg");
+    background-image: url("gerador-de-curriculo/img/cargo.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -566,7 +566,7 @@ input[id="cargo_empresa__1"] {
 }
 
 input[id="cargo_empresa__2"] {
-    background-image: url("/img/cargo.svg");
+    background-image: url("gerador-de-curriculo/img/cargo.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -574,7 +574,7 @@ input[id="cargo_empresa__2"] {
 }
 
 input[id="cargo_empresa__3"] {
-    background-image: url("/img/cargo.svg");
+    background-image: url("gerador-de-curriculo/img/cargo.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -582,7 +582,7 @@ input[id="cargo_empresa__3"] {
 }
 
 input[id="objetivo"] {
-    background-image: url("/img/objetivo.svg");
+    background-image: url("gerador-de-curriculo/img/objetivo.svg");
     background-size: 25px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -592,7 +592,7 @@ input[id="objetivo"] {
 
 /* 
 textarea[id="resumo__empresa1"] {
-    background-image: url("/img/fun.svg");
+    background-image: url("fun.svg");
     background-size: 35px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -608,7 +608,7 @@ textarea[id="resumo__empresa2"] {
 }
 
 textarea[id="resumo__empresa3"] {
-    background-image: url("/img/fun.svg");
+    background-image: url("fun.svg");
     background-size: 35px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -617,7 +617,7 @@ textarea[id="resumo__empresa3"] {
 
 
 /* textarea[id="outros__conhecimentos"] {
-    background-image: url("/img/resu.svg");
+    background-image: url("resu.svg");
     background-size: 35px;
     background-position: 4px 4px;
     background-position-x: right;
@@ -687,42 +687,42 @@ footer {
 /*Hover icones sociais*/
 
 a.facebook:hover {
-    content: url(/img/facebook_logo.png);
+    content: url(gerador-de-curriculo/img/facebook_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.instagram:hover {
-    content: url(/img/instagram_logo.png);
+    content: url(gerador-de-curriculo/img/instagram_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.twitter:hover {
-    content: url(/img/twitter_logo.png);
+    content: url(gerador-de-curriculo/img/twitter_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.linkedin:hover {
-    content: url(/img/linkedin_logo.png);
+    content: url(gerador-de-curriculo/img/linkedin_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.github:hover {
-    content: url(/img/GitHub_logo_dark.png);
+    content: url(gerador-de-curriculo/img/GitHub_logo_dark.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
 }
 
 a.whatsapp:hover {
-    content: url(/img/Whatsapp_logo.png);
+    content: url(gerador-de-curriculo/img/Whatsapp_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
