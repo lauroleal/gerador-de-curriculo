@@ -722,7 +722,7 @@ a.github:hover {
 }
 
 a.whatsapp:hover {
-    content: url(/img/Whatsapp_logo.png);
+    content: url(./img/Whatsapp_logo.png);
     width: 33px;
     height: auto;
     margin: 5px 0px 5px 0px;
