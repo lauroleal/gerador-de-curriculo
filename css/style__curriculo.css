@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: "Century Gothic";
-    src: url("/fonts/Century Gothic.ttf")
+    src: url("../fonts/Century Gothic.ttf")
 }
 
 
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: GOTHIC;
-    src: url("/fonts/GOTHIC.ttf")
+    src: url("../fonts/GOTHIC.ttf")
 }
 
 
@@ -25,12 +25,12 @@
 
 @font-face {
     font-family: GOTHICB0;
-    src: url("/fonts/GOTHICB0.ttf")
+    src: url("../fonts/GOTHICB0.ttf")
 }
 
 @font-face {
     font-family: CenturyGothic;
-    src: url("/fonts/CenturyGothic.ttf")
+    src: url("../fonts/CenturyGothic.ttf")
 }
 
 
@@ -38,7 +38,7 @@
 
 @font-face {
     font-family: gothicb;
-    src: url("/fonts/gothicb.ttf")
+    src: url("../fonts/gothicb.ttf")
 }
 
 
@@ -46,7 +46,7 @@
 
 @font-face {
     font-family: century-gothic-italic;
-    src: url("/fonts/century-gothic-italic.ttf")
+    src: url("../fonts/century-gothic-italic.ttf")
 }
 
 
@@ -54,7 +54,7 @@
 
 @font-face {
     font-family: gothicbi;
-    src: url("/fonts/century-gothic-bold-italic.ttf")
+    src: url("../fonts/century-gothic-bold-italic.ttf")
 }
 
 #texto__nome {
@@ -84,14 +84,14 @@
 }
 
 .topo {
-    background-image: url(/img/arteb.png);
+    background-image: url(../img/arteb.png);
     margin-left: 15px;
     width: 400px;
     height: 20px;
 }
 
 .baixo {
-    background-image: url(/img/arteb.png);
+    background-image: url(../img/arteb.png);
     margin-left: 15px;
     width: 400px;
     height: 20px;
