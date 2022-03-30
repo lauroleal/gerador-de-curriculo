@@ -53,7 +53,10 @@ body {
 header {
     background-color: #003153;
     width: 100%;
-    height: auto;
+    height: 90px;
+    padding: 10px;
+    border-bottom-right-radius: 25%;
+    margin-bottom: 10px;
 }
 
 
