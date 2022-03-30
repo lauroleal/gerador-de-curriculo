@@ -39,7 +39,7 @@
 /* mudando a cor padrão quando um texto e selecionado */
 
 ::selection {
-    background: #041b91;
+    background: #003153;
     color: rgb(255, 255, 255);
 }
 
@@ -47,7 +47,7 @@
 /*#################################################################*/
 
 body {
-    background-color: #fff;
+    background-color: #F6F6F6;
 }
 
 header {
@@ -81,7 +81,7 @@ header {
 /*Corpo*/
 
 .p__titulo__padrao {
-    color: #041b91;
+    color: #003153;
     font-family: 'Questrial';
     font-size: 25px;
     font-weight: bold;
@@ -110,14 +110,14 @@ header {
     margin: 9px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 19px;
-    color: #041b91;
+    color: #003153;
 }
 
 .formulario__texto__p {
     margin: 9px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 18px;
-    color: #0d228b;
+    color: #003053ea;
     font-weight: bold;
 }
 
@@ -129,7 +129,7 @@ header {
     margin: 9px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 15px;
-    color: #0d228b;
+    color: #003153;
 }
 
 
@@ -137,7 +137,7 @@ header {
 
 .formulario__campo {
     border-radius: 5px;
-    border: solid 1px #041b91;
+    border: solid 1px #003153;
     width: 300px;
     height: 35px;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -149,7 +149,7 @@ header {
 
 .formulario__campo__menor {
     border-radius: 5px;
-    border: solid 1px #041b91;
+    border: solid 1px #003153;
     width: 120px;
     height: 35px;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -164,7 +164,7 @@ header {
 
 .formulario__campo__menor3 {
     border-radius: 5px;
-    border: solid 1px #041b91;
+    border: solid 1px #003153;
     width: 280px;
     height: 35px;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -177,7 +177,7 @@ header {
 .formulario__campo__menor2,
 .formulario__campo__forma {
     border-radius: 5px;
-    border: solid 1px #041b91;
+    border: solid 1px #003153;
     width: 105px;
     height: 35px;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -189,7 +189,7 @@ header {
 
 .formulario__textarea {
     border-radius: 5px;
-    border: solid 1px #041b91;
+    border: solid 1px #003153;
     width: 400px;
     max-height: 120px;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -200,7 +200,7 @@ header {
 }
 
 .formulario__textarea::placeholder {
-    color: #041c91af;
+    color: #003153;
     font-size: 19px;
     font-family: 'PT Sans Narrow', sans-serif;
     padding: 5px;
@@ -208,12 +208,12 @@ header {
 
 .formulario__campo__option {
     border-radius: 5px;
-    border: solid 1px #041b91;
+    border: solid 1px #003153;
     width: 300px;
     height: 35px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 19px;
-    color: #041b91;
+    color: #003153;
     padding: 5px;
     margin: 9px;
 }
@@ -221,14 +221,14 @@ header {
 .formulario__campo__option__disabled {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 19px;
-    color: #041c91b6;
+    color: #0c5c96;
 }
 
 
 /*Cor da legenda do placeholder / caixa de texto*/
 
 input::placeholder {
-    color: #041c91af;
+    color: #003153;
     font-size: 16px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -263,10 +263,11 @@ select:focus,
 
 fieldset {
     border-radius: 10px;
+    background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 480px;
     height: auto;
-    border: solid 1px #041b91;
+    border: solid 1px #003153;
     padding: 10px;
     margin-left: 8px;
     margin-bottom: 5px;
@@ -278,7 +279,7 @@ fieldset {
 legend {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 20px;
-    color: #041b91;
+    color: #003153;
     font-weight: bold;
     margin-left: 25px;
     margin-bottom: 10px;
@@ -299,7 +300,7 @@ input[type='radio']:after {
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 1px solid #041b91;
+    border: 1px solid #003153;
 }
 
 input[type='radio']:checked:after {
@@ -309,7 +310,7 @@ input[type='radio']:checked:after {
     top: -2px;
     left: -2px;
     position: relative;
-    background-color: #041b91;
+    background-color: #003153;
     content: '';
     display: inline-block;
     visibility: visible;
@@ -330,7 +331,7 @@ input[type='checkbox']:after {
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 1px solid #041b91;
+    border: 1px solid #003153;
 }
 
 input[type='checkbox']:checked:after {
@@ -340,7 +341,7 @@ input[type='checkbox']:checked:after {
     top: -1px;
     left: -5px;
     position: relative;
-    background-color: #041b91;
+    background-color: #003153;
     content: '';
     display: inline-block;
     visibility: visible;
@@ -426,14 +427,14 @@ input[type='date'] {
 ::-webkit-datetime-edit-month-field:hover,
 ::-webkit-datetime-edit-day-field:hover,
 ::-webkit-datetime-edit-year-field:hover {
-    background-color: #041b91;
+    background-color: #003153;
     color: #fff
 }
 
 ::-webkit-datetime-edit-year-field:focus,
 ::-webkit-datetime-edit-month-field:focus,
 ::-webkit-datetime-edit-day-field:focus {
-    background-color: #041b91;
+    background-color: #003153;
     color: #fff;
 }
 
@@ -442,6 +443,7 @@ input[type='date'] {
 
 ::-webkit-calendar-picker-indicator {
     background-image: url("../img/data.svg");
+    opacity: 0.8;
 }
 
 input[id="escola__nome"] {
@@ -450,6 +452,7 @@ input[id="escola__nome"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="escola__nome__2"] {
@@ -458,6 +461,7 @@ input[id="escola__nome__2"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="nome__curso"] {
@@ -466,6 +470,7 @@ input[id="nome__curso"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="nome__curso__2"] {
@@ -474,6 +479,7 @@ input[id="nome__curso__2"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="local__curso1"] {
@@ -482,6 +488,7 @@ input[id="local__curso1"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="local__curso3"] {
@@ -490,6 +497,7 @@ input[id="local__curso3"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="local__curso2"] {
@@ -498,6 +506,7 @@ input[id="local__curso2"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="nome__curso1"] {
@@ -506,6 +515,7 @@ input[id="nome__curso1"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="nome__curso2"] {
@@ -514,6 +524,7 @@ input[id="nome__curso2"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="nome__curso3"] {
@@ -522,6 +533,7 @@ input[id="nome__curso3"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 
@@ -539,6 +551,7 @@ input[id="name_empresa__1"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="name_empresa__2"] {
@@ -547,6 +560,7 @@ input[id="name_empresa__2"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="name_empresa__3"] {
@@ -555,6 +569,7 @@ input[id="name_empresa__3"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="cargo_empresa__1"] {
@@ -563,6 +578,7 @@ input[id="cargo_empresa__1"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="cargo_empresa__2"] {
@@ -571,6 +587,7 @@ input[id="cargo_empresa__2"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="cargo_empresa__3"] {
@@ -579,6 +596,7 @@ input[id="cargo_empresa__3"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 input[id="objetivo"] {
@@ -587,6 +605,7 @@ input[id="objetivo"] {
     background-position: 4px 4px;
     background-position-x: right;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 
@@ -628,7 +647,7 @@ textarea[id="resumo__empresa3"] {
 /*tipo resetando os atributos padroes da tag button*/
 
 button {
-    background-color: #041b91;
+    background-color: #003153;
     color: #fff;
     font-family: 'Questrial', sans-serif;
     font-size: 18px;
@@ -644,7 +663,7 @@ button {
 }
 
 button:hover {
-    background-color: #041c91b6;
+    background-color: #003053d5;
 }
 
 .centralizar__button {
