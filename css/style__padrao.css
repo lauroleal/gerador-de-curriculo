@@ -148,6 +148,7 @@ header {
     color: #003153;
     padding: 5px;
     margin: 9px;
+    background-color: #F6F6F6;
 }
 
 .formulario__campo__menor {
@@ -160,6 +161,7 @@ header {
     color: #003153;
     padding: 5px;
     margin: 9px;
+    background-color: #F6F6F6;
 }
 
 
@@ -175,6 +177,7 @@ header {
     color: #003153;
     padding: 5px;
     margin: 9px;
+    background-color: #F6F6F6;
 }
 
 .formulario__campo__menor2,
@@ -188,6 +191,7 @@ header {
     color: #003153;
     padding: 5px;
     margin: 9px;
+    background-color: #F6F6F6;
 }
 
 .formulario__textarea {
@@ -200,6 +204,7 @@ header {
     color: #003153;
     margin-left: 10px;
     padding: 2px;
+    background-color: #F6F6F6;
 }
 
 .formulario__textarea::placeholder {
@@ -219,6 +224,7 @@ header {
     color: #003153;
     padding: 5px;
     margin: 9px;
+    background-color: #F6F6F6;
 }
 
 .formulario__campo__option__disabled {
