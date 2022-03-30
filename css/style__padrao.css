@@ -16,7 +16,7 @@
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: #041b91 rgb(255, 255, 255);
+    scrollbar-color: #003153;
 }
 
 
@@ -31,7 +31,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #041b91;
+    background-color: #003153;
     border-radius: 30px;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 header {
-    background-color: #041b91;
+    background-color: #003153;
     width: 100%;
     height: auto;
 }
@@ -659,7 +659,7 @@ button:hover {
 /*Footer*/
 
 footer {
-    background-color: #041b91;
+    background-color: #003153;
     padding: 15px 0 15px 0;
     border-top-left-radius: 25%;
 }
