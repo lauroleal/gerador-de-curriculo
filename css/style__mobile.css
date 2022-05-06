@@ -91,7 +91,7 @@ Surface pro 7 912 ok
 
 @media only screen and (max-width: 912px) {
     .img__logo {
-        width: 260px;
+        width: 230px;
     }
     .img__logo__footer {
         width: 80px;
@@ -221,7 +221,7 @@ Iphone SE
 
 @media only screen and (max-width: 414px) {
     .img__logo {
-        width: 260px;
+        width: 220px;
     }
     .img__logo__footer {
         width: 80px;
