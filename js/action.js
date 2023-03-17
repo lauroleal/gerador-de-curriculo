@@ -139,7 +139,7 @@ formulario.forEach(function(valor, key) {
             let valor__campo = `${form} — ${valor}`;
             id('linha__curso2').innerHTML = valor__campo;
         }
-        // uu pra evitar curso 1 vazio
+        // uu pra evitar curso 2 vazio
         if (key == 'nome__curso2') {
             if (valor == '') {
                 id('linha__curso2').innerHTML = '';
@@ -160,7 +160,7 @@ formulario.forEach(function(valor, key) {
             let valor__campo = `${form} — ${valor}`;
             id('linha__curso3').innerHTML = valor__campo;
         }
-        // uu pra evitar curso 1 vazio
+        // uu pra evitar curso 3 vazio
         if (key == 'nome__curso3') {
             if (valor == '') {
                 id('linha__curso3').innerHTML = '';
@@ -181,27 +181,30 @@ formulario.forEach(function(valor, key) {
         }
         if (key == 'inicio_empresa__1') {
             let form = id('linha__historico').innerHTML;
-            let valor__campo = `${form} de ${valor}`;
-            id('linha__historico').innerHTML = valor__campo;
+            if (valor == '') {
+                let valor__campo = ``;
+                id('linha__historico').innerHTML = valor__campo;
+            } else {
+                let valor__campo = `${form} de ${valor}`;
+                id('linha__historico').innerHTML = valor__campo;
+            }
+
         }
         if (key == 'saida_empresa__1') {
             let form = id('linha__historico').innerHTML;
-            let valor__campo = `${form} a ${valor}`;
-            id('linha__historico').innerHTML = valor__campo;
+            if (valor == '') {
+                let form = id('linha__historico').innerHTML;
+                let valor__campo = ``;
+                id('linha__historico').innerHTML = valor__campo;
+            } else {
+                let valor__campo = `${form} a ${valor}`;
+                id('linha__historico').innerHTML = valor__campo;
+            }
+
         }
         if (key == 'resumo__empresa1') {
             id('linha__historico__descricao').innerHTML = valor;
         }
-        // uu pra evitar  empresa 1 vazia
-        if (key == 'saida_empresa__1') {
-            if (valor == '') {
-                let form = id('linha__historico').innerHTML;
-                let valor__campo = `${form} atual`;
-                id('linha__historico').innerHTML = valor__campo;
-            }
-        }
-
-
 
         // empresa 2
         if (key == 'name_empresa__2') {
